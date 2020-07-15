@@ -8,12 +8,12 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Easy to build on Libra Blockchain</>,
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Volibra was designed from the ground up to be easily used to get your
+        APP up and running quickly.
       </>
     ),
   },
@@ -22,18 +22,18 @@ const features = [
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Volibra lets you focus on your App, and we&apos;ll do all the
+        integration with multi financial Institutions
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Have Multiple Choices</>,
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can use our client libraries in Nodejs and Java or consume Our Rest
+        API directly
       </>
     ),
   },

@@ -26,11 +26,6 @@ module.exports = {
         },
 
         { to: "", label: "Community", position: "left" },
-        {
-          href: "https://github.com/ShareQube/volibra-docs",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -77,7 +72,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Volibra Developers Website. Built with Docusaurus.`,
     },
   },
   presets: [

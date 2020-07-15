@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: Style Guide
+title: Getting Started
 sidebar_label: Style Guide
 ---
 

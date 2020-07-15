@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    docs: ["getting-started", "api", "doc3"],
-    Features: ["mdx"],
+    Introduction: ["getting-started"],
+    "API Reference": ["api"],
+    Guides: ["troubleshooting"],
   },
 };
