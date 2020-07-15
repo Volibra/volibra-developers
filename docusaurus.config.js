@@ -8,18 +8,23 @@ module.exports = {
   projectName: "volibra-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Volibra Developers Website",
+      title: "Volibra Developers",
       logo: {
         alt: "Volibra",
         src: "img/logo.svg",
       },
       links: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
+          label: "Getting Started",
+          to: "docs/getting-started",
           position: "left",
         },
+        {
+          label: "API",
+          to: "docs/api",
+          position: "left",
+        },
+
         { to: "", label: "Community", position: "left" },
         {
           href: "https://github.com/ShareQube/volibra-docs",
@@ -81,17 +86,11 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "doc1",
+          homePageId: "../docs/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/ShareQube/volibra-docs/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/ShareQube/volibra-docs/edit/master/website/blog/",
+            "https://github.com/ShareQube/volibra-docs/edit/master/volibra-docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
