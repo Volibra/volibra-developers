@@ -1,10 +1,10 @@
 module.exports = {
   title: "Volibra Developers Website",
   tagline: "Volibra API Documentation",
-  url: "http://developers.volibra.com",
-  baseUrl: "/",
+  url: "https://shareqube.github.io/",
+  baseUrl: "/volibra-docs/",
   favicon: "img/favicon.ico",
-  organizationName: "shareqube", // Usually your GitHub org/user name.
+  organizationName: "judeebene", // Usually your GitHub org/user name.
   projectName: "volibra-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -36,12 +36,9 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs/",
+              to: "docs/getting-started",
             },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
+            { label: "API Reference", to: "docs/api" },
           ],
         },
         {
@@ -49,15 +46,15 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/questions/tagged/volibra",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Telegram",
+              href: "",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/volibra1",
             },
           ],
         },
