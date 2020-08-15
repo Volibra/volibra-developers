@@ -2,9 +2,9 @@ module.exports = {
   title: "Volibra Developers Website",
   tagline: "Volibra API Documentation",
   url: "https://shareqube.github.io/",
-  baseUrl: "/volibra-docs/",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "judeebene", // Usually your GitHub org/user name.
+  organizationName: "ShareQube", // Usually your GitHub org/user name.
   projectName: "volibra-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -50,7 +50,7 @@ module.exports = {
             },
             {
               label: "Telegram",
-              href: "",
+              href: "https://t.me/joinchat/K32itxP7gBhwZew6DAmvaw",
             },
             {
               label: "Twitter",
