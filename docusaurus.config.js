@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "ShareQube", // Usually your GitHub org/user name.
-  projectName: "volibra-docs", // Usually your repo name.
+  projectName: "volibra-developers", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Volibra Developers",
