@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Volibra:- A new Foundation to accept Diem Payment<head />"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">

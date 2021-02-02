@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Volibra Developers Website",
-  tagline: "Volibra API Documentation",
+  title: "Developer tools and resources to integrate Volibra",
+  tagline: "Build a web or mobile integration to accept Diem payments online or in person",
   url: "https://shareqube.github.io/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -13,7 +13,7 @@ module.exports = {
         alt: "Volibra",
         src: "img/logo.svg",
       },
-      links: [
+      items: [
         {
           label: "Getting Started",
           to: "docs/getting-started",
@@ -25,7 +25,7 @@ module.exports = {
           position: "left",
         },
 
-        { to: "", label: "Community", position: "left" },
+        { to: "https://t.me/joinchat/K32itxP7gBhwZew6DAmvaw", label: "Community", position: "left" },
       ],
     },
     footer: {
@@ -81,7 +81,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "../docs/",
+         
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
