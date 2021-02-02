@@ -1,10 +1,10 @@
 module.exports = {
   title: "Developer tools and resources to integrate Volibra",
   tagline: "Build a web or mobile integration to accept Diem payments online or in person",
-  url: "https://shareqube.github.io/",
+  url: "https://volibra.github.io/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "ShareQube", // Usually your GitHub org/user name.
+  organizationName: "Volibra", // Usually your GitHub org/user name.
   projectName: "volibra-developers", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -61,10 +61,6 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
             {
               label: "GitHub",
               href: "https://github.com/ShareQube/volibra-docs",
