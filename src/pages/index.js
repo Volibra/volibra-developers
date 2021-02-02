@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Easy to build on Libra Blockchain</>,
+    title: <>Easy to build on Diem Blockchain</>,
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
@@ -23,7 +23,7 @@ const features = [
     description: (
       <>
         Volibra lets you focus on your App, and we&apos;ll do all the
-        integration with multi financial Institutions
+        integration with cross border Payment
       </>
     ),
   },
