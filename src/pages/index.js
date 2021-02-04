@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: <>Easy to build on Diem Blockchain</>,
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/undraw_docusaurus_easy.svg",
     description: (
       <>
         Volibra was designed from the ground up to be easily used to get your
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Focus on What Matters</>,
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    imageUrl: "img/undraw_docusaurus_focus.svg",
     description: (
       <>
         Volibra lets you focus on your App, and we&apos;ll do all the
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Have Multiple Choices</>,
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    imageUrl: "img/undraw_docusaurus_choice.svg",
     description: (
       <>
         You can use our client libraries in Nodejs and Java or consume Our Rest

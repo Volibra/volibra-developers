@@ -1,7 +1,18 @@
+
 module.exports = {
-  someSidebar: {
-    Introduction: ["getting-started"],
-    "API Reference": ["api"],
-    Guides: ["troubleshooting"],
-  },
-};
+  docs: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      items: ['getting-started'],
+    },
+    {
+      type: 'category',
+      label: 'API Reference',
+      items: [
+        'wallet' ,
+        'transactions']
+}]
+}
+
+

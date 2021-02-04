@@ -1,33 +1,46 @@
 ---
 id: getting-started
 title: Getting Started
-sidebar_label: Style Guide
+sidebar_label: Getting Started
 ---
 
 ### Introduction
 
-- Volibra API supports data connections to African's financial institutions. It provides secure access to your users' accounts and transactions with industry-leading cleansing, categorization, and classification.
+- Volibra API supports Payment, offline Settlement  and Transactions on the Diem Blockchain. 
 
-Also Volibra Provides Client API to interacts and build on the Libra Blockchain.
 
-Currently We are only exposing Blockchain Endpoints to the Public to test and Not Financial Data Endpoints
+:::warning
+
+These documentations are work in progress and not complete yet!!
+
+:::
+
+
 
 Volibra is designed according to resource-oriented REST architecture and responds with JSON bodies and HTTP response codes.
 
-Use Volibra's development and Testnest environment, api.volibra.com, to quickly get up and running. The development environment limits to few Users for Now
-Contact info@volibra.com to request for VOLIBRA_API_KEY to test..
+#### API Server URL
+
+The Volibra API runs at ```https://api.volibra.com/v1 ``` for Production and ```https://testnet-api.volibra.com/v1 ``` for Testnet.
+
+ All requests should be prefixed by the server URL.
 
 ### Getting Started
 
-To get started right away , request for development VOLIBRA_API_KEY, you can check out our detailed API guide.
+You can create a  Volibra account either on ```https://testnet.volibra.com ``` or ```https://apps.volibra.com ``` and Create your API keys.
 
-It covers things like reading from Libra Blockchain, Submiting Transactions, creating Wallets and Keys and a lot more.
+how to Screenshot to be updated
 
-Our API guide also explains our test endpoints and test credentials to help you get off the ground as soon as possible.
 
 We'll also provided wrapper libraries in several languages in the future .
 
 ### Things you need to know
+
+All Request require a Bearer Authentication
+
+``` json
+Authorization: Bearer <KEY>
+```
 
 ### API architecture and resource structure
 
@@ -46,3 +59,6 @@ We'll also provided wrapper libraries in several languages in the future .
 ### IP address whitelisting
 
 ### Limits
+
+### Questions and feedback
+If you want some more information on a topic or want to contribute to these docs, reach out to info@volibra.com

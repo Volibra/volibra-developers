@@ -21,7 +21,7 @@ module.exports = {
         },
         {
           label: "API",
-          to: "docs/api",
+          to: "docs/wallet",
           position: "left",
         },
 
@@ -38,7 +38,7 @@ module.exports = {
               label: "Getting Started",
               to: "docs/getting-started",
             },
-            { label: "API Reference", to: "docs/api" },
+            { label: "API Reference", to: "docs/wallet" },
           ],
         },
         {
